@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai2</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px auto;
+    }
+    
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .container {
+        height: 1250px;
+        width: 1600px;
+        padding: 30px;
+        border: 3px outset whitesmoke;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    header {
+        height: 200px;
+        width: 100%;
+        background-image: url(/img/Screenshot\ 2024-09-05\ 131212.png);
+    }
+    
+    section {
+        height: 920px;
+        width: 70%;
+        float: left;
+    }
+    
+    aside {
+        width: 30%;
+        height: 920px;
+        float: right;
+        border-left: 1px solid whitesmoke;
+    }
+    
+    footer {
+        height: 60px;
+        width: 100%;
+        background-color: #a09d98;
+        float: left;
+        color: aliceblue;
+    }
+    
+    nav {
+        height: 50px;
+        width: 100%;
+        background-color: #a09d98;
+    }
+    
+    header .logo img {
+        height: 150px;
+    }
+    
+    .logo {
+        position: relative;
+        height: 150px;
+        width: 100%;
+    }
+    
+    .logo p {
+        top: 60px;
+        left: 150px;
+        position: absolute;
+        color: white;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .logo span {
+        top: 100px;
+        left: 160px;
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    nav ul li {
+        float: left;
+        list-style: none;
+        margin-right: 40px;
+        line-height: 50px;
+        color: white;
+        font-size: 25px;
+    }
+    
+    nav ul li:first-child {
+        color: black;
+        margin-left: 20px;
+    }
+    
+    .content_img {
+        position: relative;
+        margin-top: 30px;
+        margin-left: 10px;
+        border: 1px solid whitesmoke;
+        display: inline-block;
+        padding: 10px 10px 40px 10px;
+    }
+    
+    .content_img img {
+        width: 500px;
+        height: 300px;
+    }
+    
+    .content_img span {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 20px;
+    }
+    
+    .content_text {
+        position: relative;
+        width: 400px;
+        height: auto;
+        top: -300px;
+        left: 250px;
+    }
+    
+    .content_img_2 {
+        position: relative;
+        margin-left: 10px;
+        border: 1px solid whitesmoke;
+        display: inline-block;
+        padding: 10px 10px 40px 10px;
+    }
+    
+    .content_img_2 img {
+        width: 500px;
+        height: 300px;
+    }
+    
+    .content_img_2 span {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 20px;
+    }
+    
+    .content_text_2 {
+        position: relative;
+        width: 400px;
+        height: auto;
+        top: -300px;
+        left: 250px;
+    }
+    
+    aside .aside_popular ul li {
+        list-style: none;
+        color: palevioletred;
+        font-size: 25px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid whitesmoke;
+        width: 300px;
+        margin-left: 50px;
+        padding-bottom: 20px;
+        font-weight: 600;
+    }
+    
+    aside .aside_popular ul li:first-child {
+        font-size: 35px;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    
+    aside .aside_contact ul li {
+        color: black;
+        list-style: none;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    
+    aside .aside_contact ul li:first-child {
+        font-size: 35px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        color: palevioletred;
+    }
+    
+    footer p {
+        margin-left: 10px;
+        bottom: 0px;
+        line-height: 80px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="/img/logo.png" alt="">
+                <p>YOKO' KITCHEN</p>
+                <span>JAPANESE COOKING CLASSES</span>
+            </div>
+            <nav>
+                <ul>
+                    <li>home</li>
+                    <li>classes</li>
+                    <li>catering</li>
+                    <li>about</li>
+                    <li>contact</li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <div class="content_img">
+                    <img src="/img/Screenshot 2024-09-05 132758.png" alt="">
+                    <span>Bok Choi</span>
+                </div>
+                <div class="content_text">
+                    <h1 style="font-size: 30px;">Japanese Vegetarian</h1>
+                    <h2 style="font-size: 20px; color: palevioletred;">Five week course in London</h2>
+                    <p style="font-size: 20px; margin-top: 10px;">A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
+                </div>
+            </article>
+            <article>
+                <div class="content_img_2">
+                    <img src="/img/teriyaki.jpg" alt="">
+                    <span>Teriyaki Sauce</span>
+                </div>
+                <div class="content_text_2">
+                    <h1 style="font-size: 30px;">Sauces Masterclass</h1>
+                    <h2 style="font-size: 20px; color: palevioletred;">One day workshop</h2>
+                    <p style="font-size: 20px; margin-top: 10px;">An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery. </p>
+                </div>
+            </article>
+        </section>
+        <aside>
+            <div class="aside_popular">
+                <ul>
+                    <li>Popular Recipies </li>
+                    <li>Yakitori (grilled chicken)</li>
+                    <li>Tsukune (minced chicken patties) </li>
+                    <li>Okonomiyaki (savory pancakes)</li>
+                    <li>Mizutaki (chicken stew)</li>
+                </ul>
+            </div>
+            <div class="aside_contact">
+                <ul>
+                    <li>Contact</li>
+                    <li>Yoko's Kitchen</li>
+                    <li>27 Redchurch Street </li>
+                    <li>Shoreditch</li>
+                    <li>London E2 7DP</li>
+                </ul>
+            </div>
+        </aside>
+        <footer>
+            <p>&#169;2011 Yoko's Kitchen</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1b</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px auto;
+    }
+    
+    .warrper {
+        height: 860px;
+        width: 1089px;
+        border: 1px solid red;
+    }
+    
+    header {
+        width: 1089px;
+        height: 108px;
+        position: relative;
+    }
+    
+    nav {
+        width: 100%;
+        height: 40px;
+        background-color: #f0949c;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+    
+    h2 {
+        background-color: #f4f1d8;
+    }
+    
+    header h1 {
+        text-align: center;
+        font-style: italic;
+        margin-top: 20px;
+        color: #a33a38;
+        margin-bottom: 20px;
+        font-size: 40px;
+        text-shadow: 20px 20px 10px #fce4ec;
+    }
+    
+    header nav li {
+        float: left;
+        list-style: none;
+        line-height: 40px;
+        margin: 0px 40px;
+    }
+    
+    header nav ul {
+        margin-left: 200px;
+    }
+    
+    header nav li a {
+        text-decoration: none;
+        border-left: 1px solid #5c33ac;
+        line-height: 40px;
+        display: inline-block;
+        padding-left: 40px;
+    }
+    
+    img {
+        position: absolute;
+        width: 30px;
+        left: 200px;
+        justify-items: center;
+    }
+    
+    input {
+        position: relative;
+        top: 10px;
+        left: 30px;
+    }
+    
+    h2 {
+        font-size: 35px;
+        color: brown;
+    }
+    
+    section .section_1 ul {
+        margin-left: 35px;
+    }
+    
+    section .section_1 ul a {
+        color: red;
+        font-weight: 900;
+    }
+</style>
+
+<body>
+    <div class="warrper">
+        <header>
+            <h1>EXAMPLE CAFE MENU</h1>
+            <nav>
+                <ul>
+                    <img src="/img/icons8-home-50.png" alt="">
+                    <li><a href="">Starter</a></li>
+                    <li><a href="">Main Coures</a></li>
+                    <li><a href="" style=" border-right: 1px solid #5c33ac; padding-right: 80px;">Desserts</a></li>
+                    <input type="text">
+                    <input type="submit" placeholder="Go">
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="section_1">
+                <h2>Starter</h2>
+                <ul>
+                    <li>Chestnut and Mushroom GouJons <a href="">(v)</a></li>
+                    <li>Goat cheese <a href="">(v)</a></li>
+                    <li>
+                        <p style="color: #c77035; font-weight: 900;">HONEY SOY CHICKEN KEYBADS <a href="">(v)</a></p>
+                    </li>
+                    <li>Seafood salad <a href="">(v)</a></li>
+                </ul>
+                <a href="" style="color: red; font-weight: 900;">Back to top</a>
+            </div>
+            <div class="section_1">
+                <h2>Desserts</h2>
+                <ul>
+                    <li>Lemon sorbet<a href="">(v)</a></li>
+                    <li>Chocolate Mud Pie <a href="">(v)</a></li>
+                    <li>Peacan Pie <a href="">(v)</a></li>
+                    <li>Selection of fine Cheeses from Around the World <a href="">(v)</a></li>
+                </ul>
+                <a href="" style="color: red; font-weight: 900;">Back to top</a>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
